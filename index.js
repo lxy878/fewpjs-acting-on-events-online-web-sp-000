@@ -25,6 +25,6 @@ function moveDodgerRight(){
   let left = parseInt(leftNumber, 10);
 
   if(left < 180){
-    dodger.style.left = `${right + 1}px`;
+    dodger.style.left = `${left + 1}px`;
   }
 }
